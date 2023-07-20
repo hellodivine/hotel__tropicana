@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.7em;
+}
+
+/* header edit */
+.landingpage{
+    background-color: #f1dcf0;
+    height: 570px;
+}
+
+header{
+    background-color: #f1dcf0;
+    /* background-color: #0c040b; */
+}
+nav{
+    overflow: auto;
+}
+a{
+    text-decoration: none;
+    color: #2b5e30;
+    display: block;
+    padding: 20px;
+    padding-left: 60px;
+    text-align: center;  
+    margin-top: -60px;
+}
+a:hover{
+    background-color: #2b5e30;
+}
+.logo{
+    padding: 5px;
+    padding-left: 20px;
+}
+#logoimg{
+    border-radius: 100%;
+    height: 90%;
+    width: 3.4%;
+}
+ul{
+    float: right;
+    list-style: none;
+}
+li{
+    float: left;
+}
+
+/* end header edit */
+
+/* landing page  */
+
+#lp_img{
+    float: left;
+    margin-top: -461px;
+    margin-left: 540px;
+    height: 100%;
+    width: 60%;
+}
+.headingtxt{
+    margin-top: -40px;
+    padding: 70px;
+    line-height: 4.9em;
+    width: 50%;
+}
+#lp_headtxt{
+    font-size: 500%;
+    font-weight: 900;
+}
+.subheadingtxt{
+    /* background-color: black; */
+    position: relative;
+    margin-top: -50px;
+    left: 70px;
+    width: 35%;
+}
+#lp_subtxt{
+    font-size: 116%;
+    line-height: 1.7em;
+}
+#aboutbutton{
+    margin-top: 15px;
+    padding: 7px 10px 7px 10px;
+    /* border-radius: 10px; */
+    border-style: 1px solid white;
+    background-color: #2b5e30;
+    color: #fff;
+}
+#hotel{
+    color: #2b5e30;
+    font-weight: bolder;
+    font-size: 23px;
+}
+/* landing page end */
+
+/* unique page */
+
+.uniqueimg{
+    margin: 80px;
+    height: 20%;
+    width: 30%;
+    object-fit: cover;
+}
+#uniqueimg1{
+    position: relative;
+    left: 30px;
+    top: 15px;
+}
+#uniqueimg2{
+    position: absolute;
+    height: 50%;
+    width: 29%;
+    top: 570px;
+    left: 70px;
+
+}
+.uniquetxt{
+    float: right;
+    margin-top: -400px;
+    margin-right: 70px;
+    width: 40%;
+}
+.unique_htxt{
+    text-decoration: underline;
+    color: #2b5e30;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#uniquebutton{
+    margin-top: 15px;
+    padding: 7px 10px 7px 10px;
+    /* border-radius: 10px; */
+    /* border-style: none; */
+    border-style: solid ;
+    color: #2b5e30;
+}
+/* end of unique */
+
+/* services */
+.service_txt{
+    font-size: 110px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+.srv_crd{
+    background-color: #2b5e30;
+    margin: 50px;
+    width: 20%;
+    height: 90%;
+}
+.crd{
+    height: 300px;
+    margin-top: -60px;
+    color: #fff;
+}
+#crd1{
+    padding: 20px;
+    background-color: #d2b48c;
+    position: relative;
+    bottom: -134px;
+    height: 200px;
+}
+#crd2{
+    padding: 20px;
+    background-color: #e8b647;
+    position: relative;
+    float: right;
+    height: 250px;
+    right: 680px;
+    bottom: 216px;
+}
+#crd3{
+    padding: 20px;
+    background-color: #6b8e44;
+    position: relative;
+    float: right;
+    height: 300px;
+    bottom: 266px;
+}
+#crd4{
+    padding: 20px;
+    background-color: #b7410e;
+    position: relative;
+    float: right;
+    height: 350px;
+    left: 680px;
+    bottom: 312px;
+}
+
+.voucher{
+    position: relative;
+    top: 100px;
+    background-color: #f1dcf0;
+    height: 450px;
+}
+#vimg{
+    position: absolute;
+    float: right;
+    top: 25px;
+    right: 299px;
+    height: 90%;
+    width: 30%;
+}
+.vouchertxt{
+    position: relative;
+    left: 90px;
+    top: 25px;
+    margin: 0px 0px 7px 30px;
+    font-size: 40px;
+    line-height: 1.3em;
+    font-weight: 1000px;
+    width: 15%;
+}
+.vouchertxt2{
+    position: relative;
+    /* background-color: #2b5e30; */
+    left: 90px;
+    top: 25px;
+    margin: 40px 0px 7px 30px;
+    line-height: 1.3em;
+    width: 35%;
+}
+.vouchercard{
+    position: relative;
+    left: 550px;
+    top: -90px;
+    padding: 20px;
+    background-color: #fff;
+    border-style: 1px solid black;
+    width: 15%;
+}
+#voucherbutton{
+    margin-top: 15px;
+    padding: 7px 10px 7px 10px;
+    background-color: #fff;
+    border-style: solid ;
+    color: #2b5e30;
+}
+footer {
+    background-color: #2b5e30;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 292%;
+    width: 100%;
+}
